@@ -16,7 +16,7 @@ public class Test_person_student {
 
 class Person {
 
-    public void eat(){
+    public void eat() throws Exception{
         System.out.println("Person eat");
     }
 
@@ -32,7 +32,7 @@ class Person {
 
 class Student extends Person{
 
-    public void eat(){
+    public void eat() throws RuntimeException{
         System.out.println("Student eat");
     }
 
