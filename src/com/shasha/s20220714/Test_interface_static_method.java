@@ -1,8 +1,5 @@
 package com.shasha.s20220714;
 
-import java.util.Collection;
-import java.util.Collections;
-
 public class Test_interface_static_method {
 
     public static void main(String[] args) {
@@ -34,3 +31,8 @@ class BB implements AA{
 
 
 }
+
+interface sha{
+
+}
+
