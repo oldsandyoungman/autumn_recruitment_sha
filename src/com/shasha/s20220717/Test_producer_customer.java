@@ -18,6 +18,20 @@ public class Test_producer_customer {
         pp1.start();
         cc1.start();
 
+        new Thread(){
+            @Override
+            public void run() {
+                super.run();
+            }
+        };
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        });
+
     }
 
 }
